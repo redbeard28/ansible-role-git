@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Jeremie CUADRADO
-  role_name: ruby
+  role_name: git
   description: Ansible role install Git.
   license: GPLv3
   company: Redbeard-Consulting
