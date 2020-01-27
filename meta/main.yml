@@ -1,0 +1,23 @@
+---
+galaxy_info:
+  author: Jeremie CUADRADO
+  role_name: ruby
+  description: Ansible role install Git.
+  license: GPLv3
+  company: Redbeard-Consulting
+  min_ansible_version: 2.9
+
+  platforms:
+    - name: Debian
+      versions:
+        - all
+    - name: Centos
+      version:
+        - all
+
+  galaxy_tags:
+    - develoment
+    - versionning
+
+  dependencies:
+    - src: redbeard28.bootstrap

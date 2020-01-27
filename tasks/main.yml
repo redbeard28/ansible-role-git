@@ -1,0 +1,7 @@
+---
+- name: "{{ ansible_distribution | lower }} | {{ ansible_distribution_release }} - Install Git"
+  package:
+    name: "{{ git_packages }}"
+  register: git_install
+  until: git_install is succeeded
+  retries: 3
